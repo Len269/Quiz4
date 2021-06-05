@@ -7,7 +7,7 @@ from random import randint
 file = open("content.csv", 'w', encoding='UTF-8', newline='\n')
 page = 1
 file_obj = csv.writer(file)
-file_obj.writerow(["name", "price"])
+file_obj.writerow(["Name", "Price"])
 
 while page < 6:
     url = f'https://alta.ge/smartphones-page-{page}.html'
